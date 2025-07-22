@@ -9,9 +9,9 @@ logo_frascos = Image.open("Captura_de_pantalla_2025-07-22_a_las_3.25.05.png")
 # --- Mostrar los logos ---
 col1, col2 = st.columns([1, 1])
 with col1:
-    st.image(logo_hospital, use_column_width=True)
+    st.image(logo_hospital, use_container_width=True)
 with col2:
-    st.image(logo_frascos, use_column_width=True)
+    st.image(logo_frascos, use_container_width=True)
 
 # --- Título ---
 st.markdown("<h1 style='text-align: center; color: #003366;'>Calculadora de Volumen para Frascos BacT/ALERT Plus</h1>", unsafe_allow_html=True)
